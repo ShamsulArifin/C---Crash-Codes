@@ -20,7 +20,6 @@ int main()
     */
     using namespace first;
 
-    int x = 0;
     // int x = 1;      Will cause redeclaration error after build
 
     cout << x << endl;
