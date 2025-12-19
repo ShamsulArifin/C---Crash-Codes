@@ -1,6 +1,6 @@
 #include <iostream>
 
-void salam(std::string name);
+void salam(std::string name);     //      <-- function declaration
 
 int main()
 {
@@ -8,14 +8,15 @@ int main()
 
     // function = a block of reusable code
 
-    salam("Omor");
+    salam("Omor");                        //       <-- function calling
     salam("Talha");
     salam("Rouhi");
 
     return 0;
 }
 
-void salam(std::string name)
+//    ↓     function definition  
+void salam(std::string name)      //      <-- function signature
 {
     std::cout << "Assalamu alaikum" << std::endl;
     std::cout << "wa rahmatullahi" << std::endl;
